@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Brent Bulla</Authors>
+    <Company>Brent Bulla, LLC</Company>
+    <Product>OrderedChaos.Concurrency.Organizer</Product>
+    <Description>For highly multi-threaded application environments, concurrency becomes an issue for several key areas: data consistency, event handling, or order of operations for various actions.
+
+Without a framework that creates an organization layer between multi-threaded modules, the access of one module to the other is chaotic and prone to thread-locks and performance issues - possibly so much so that the concurrency benefits are offset by the cost of thread-safe context switching.
+
+OrderChaos gives the developer a framework to allow concurrent modules to communicate with others in an ordered, safe, and performant manner.</Description>
+    <Copyright>Brent Bulla, LLC 2018</Copyright>
   </PropertyGroup>
 
 </Project>
